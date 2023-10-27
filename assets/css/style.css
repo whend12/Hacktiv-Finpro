@@ -1,0 +1,59 @@
+nav,
+a.nav-link,
+.home-1,
+.home-2,
+.text-judul,
+.text-bagian {
+  color: #924b8f;
+}
+
+.btn.fw-bold,
+.text-email,
+.copyright,
+.text-two,
+.text-ilustrasi,
+.text-form {
+  color: #6d0c70;
+}
+
+.text-one,
+h1.services {
+  color: #fe7264;
+}
+
+.btn.get-touch,
+.btn.get-started,
+.btn.explore-more,
+.btn.submit {
+  background-color: #924b8f;
+  color: #fff;
+}
+
+.bg-footer {
+  background-color: rgba(146, 75, 143, 0.39);
+}
+
+.logo-footer {
+  margin-bottom: 50px;
+}
+
+.btn.get-touch:hover {
+  background-color: #fff;
+  color: #924b8f;
+  border: 1px solid #6d0c70;
+}
+
+.btn.get-started:hover,
+.btn.explore-more:hover,
+.btn.submit:hover {
+  background-color: #6d0c70;
+  color: #fff;
+  border: 2px solid #924b8f;
+}
+
+.last {
+  background-color: rgb(146, 75, 143, 12%);
+  border-radius: 37px;
+  color: #6d0c70;
+  font-weight: bold;
+}
