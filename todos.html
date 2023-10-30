@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atinity Solutions</title>
+    <!-- icons website -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/icons web.png"
+      type="image/x-icon"
+    />
+    <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- bagian navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+        >
+          <img
+            src="assets/img/Logo Header.png"
+            alt="Logo"
+            width="60"
+            height="60"
+            class="d-inline-block align-text-top"
+            style="object-fit: cover"
+          />
+          <h2 class="m-0 text-uppercase text-judul">Atinity Solution</h2>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <a href="about us.html" class="nav-item nav-link">About Us</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <a href="todos.html" class="nav-item nav-link active">Todos</a>
+          </div>
+          <button type="button" class="btn get-touch">Get In Touch</button>
+        </div>
+      </nav>
+    </div>
+    <!-- akhir navbar -->
+
+    <!-- Todos -->
+    <div class="container-todo">
+      <div class="todo">
+        <h2>To-Do List <img src="assets/img/images/icon.png" alt="todos" /></h2>
+        <div class="row-todo">
+          <input type="text" id="input-box" placeholder="Add your text..." />
+          <button class="btnTodo" onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li> -->
+        </ul>
+      </div>
+    </div>
+    <!-- End Todos -->
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
