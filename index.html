@@ -4,77 +4,145 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atinity Solutions</title>
-    <!-- font awesome -->
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/35dd348907.js"
       crossorigin="anonymous"
     ></script>
-    <!-- icons website -->
+    <!-- Icons Website -->
     <link
       rel="shortcut icon"
       href="assets/img/icons web.png"
       type="image/x-icon"
     />
-    <!-- bootstrap icons -->
+    <!-- Bootstrap Icons -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
+
     <!-- Template Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- Bootstrap Stylesheet -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      /* Custom CSS untuk merapikan teks dan grid */
+      body {
+        font-size: 16px;
+      }
+
+      .container {
+        max-width: 1200px;
+      }
+
+      .navbar {
+        padding: 15px;
+      }
+
+      .home h3 {
+        font-size: 24px;
+      }
+
+      .home p {
+        font-size: 18px;
+      }
+
+      .btn.get-started {
+        font-size: 18px;
+        padding: 10px 20px;
+      }
+
+      .bagian-1 h2,
+      .bagian-2 h2,
+      .bagian-3 h2 {
+        font-size: 25px;
+      }
+
+      .bagian-1 p,
+      .bagian-2 p,
+      .bagian-3 p {
+        font-size: 15px;
+      }
+
+      .btn.explore-more {
+        font-size: 18px;
+        padding: 10px 20px;
+      }
+
+      .services h1 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .services h6 {
+        font-weight: bold;
+      }
+      .card {
+        font-size: 10px;
+        font-weight: bold;
+      }
+
+      .container-fluid {
+        background-color: #f8f9fa;
+        padding: 20px;
+      }
+
+      .btn {
+        font-size: 18px;
+        margin: 5px;
+        padding: 10px 20px;
+      }
+
+      .text-email {
+        font-size: 20px;
+      }
+
+      .copyright {
+        font-size: 18px;
+      }
+
+      .logo-footer {
+        max-width: 80px;
+        height: auto;
+      }
+
+      .social-media-icons img {
+        width: 20x;
+        height: 20px;
+        margin: 5px;
+      }
+    </style>
   </head>
+
   <body>
-    <!-- bagian navbar -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <div class="container-fluid">
-          <!-- Toggler/collapsibe Button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <!-- Bagian Navbar -->
 
-          <a
-            href="index.html"
-            class="navbar-brand d-flex align-items-center px-4 px-lg-5"
-          >
-            <img
-              src="assets/img/Logo Header.png"
-              alt="Logo"
-              width="60"
-              height="60"
-              class="d-inline-block align-text-top"
-              style="object-fit: cover"
-            />
-            <h2 class="navbar-brand m-0 text-uppercase text-judul" href="#">
-              Atinity Solution
-            </h2>
-          </a>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-              <a href="index.html" class="nav-item nav-link active">Home</a>
-              <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
-              <a href="blog.html" class="nav-item nav-link">Blog</a>
-              <a href="about us.html" class="nav-item nav-link">About Us</a>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
-              <a href="todos.html" class="nav-item nav-link">Todos</a>
-              <button type="button" class="btn get-touch">Get In Touch</button>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top Regular shadow"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+          <img
+            src="assets/img/Logo Header.png"
+            alt="Logo"
+            width="60"
+            height="60"
+            class="d-inline-block align-text-top"
+            style="object-fit: cover"
+          />
+          <h2 class="m-0 text-uppercase text-judul">Atinity Solution</h2>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <a href="about us.html" class="nav-item nav-link">About Us</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
+          <button type="button" class="btn get-touch">Get In Touch</button>
         </div>
-      </nav>
-    </div>
-    <!-- akhir navbar -->
+      </div>
+    </nav>
 
     <!-- section home -->
     <section class="home">
@@ -108,7 +176,7 @@
     <!-- bagian 1 -->
     <section class="bagian-1">
       <div class="container mx-auto mt-5">
-        <div class="row justify-content-evenly fs-5">
+        <div class="row justify-content-evenly align-items-center fs-5">
           <div class="col-md-4">
             <h2 class="text-start text-bagian">
               Scalable, Secure, and Reliable Software Solutions
@@ -134,9 +202,10 @@
     <!-- akhir bagian 1 -->
 
     <!-- bagian 2 -->
+    <!-- Bagian 2 -->
     <section class="bagian-2">
       <div class="container mx-auto mt-5">
-        <div class="row justify-content-evenly fs-5">
+        <div class="row justify-content-evenly align-items-center fs-5">
           <div class="col-md-4">
             <img
               src="assets/img/gambar-2.png"
@@ -163,12 +232,11 @@
         </div>
       </div>
     </section>
-    <!-- akhir bagian 2 -->
 
-    <!-- bagian 3 -->
+    <!-- Bagian 3 -->
     <section class="bagian-3">
       <div class="container mx-auto mt-5">
-        <div class="row justify-content-evenly fs-5">
+        <div class="row justify-content-evenly align-items-center fs-5">
           <div class="col-md-4">
             <h2 class="text-start text-bagian">
               A Team of Skilled Professionals at Your Service
@@ -176,7 +244,7 @@
             <p>
               Our team is dedicated to helping our clients achieve their goals.
               Whether you need a custom software solution, help with a design,
-              or need attractive web or app, we are here to help.
+              or need an attractive web or app, we are here to help.
             </p>
             <button type="button" class="btn explore-more">Explore More</button>
           </div>
@@ -190,24 +258,24 @@
         </div>
       </div>
     </section>
-    <!-- akhir bagian 3 -->
 
     <!-- Bagian services -->
-    <section class="services py-5">
-      <div class="container mx-auto">
+    <section class="services py-5 mx-auto">
+      <div class="container">
         <h1 class="mb-5 fw-bold text-center services">Our Services</h1>
         <div class="row row-cols-1 row-cols-sm-3 g-4">
           <div class="col">
             <div
-              class="card h-100 shadow-lg p-3 mb-5 bg-body rounded text-center"
+              class="card h-80 shadow-lg p-2 mb-7 bg-body rounded text-center"
             >
               <img
                 src="assets/img/icons-services/App.png"
-                class="rounded m-4"
+                class="rounded img-thumbnail m-4 mx-auto"
                 alt="App Development"
+                style="width: 100px; height: 100px"
               />
               <h6 class="card-subtitle mb-2">App Development</h6>
-              <p class="card-text">
+              <p class="card-body">
                 Comprehensive app development services to streamline information
                 access and improve productivity through innovative and
                 synchronized solutions
@@ -216,31 +284,32 @@
           </div>
           <div class="col">
             <div
-              class="card h-100 shadow-lg p-3 mb-5 bg-body rounded text-center"
+              class="card h-80 shadow-lg p-3 mb-7 bg-body rounded text-center"
             >
               <img
                 src="assets/img/icons-services/Web.png"
-                class="rounded m-4"
+                class="rounded m-4 img-thumbnail mx-auto"
                 alt="App Development"
+                style="width: 100px; height: 100px"
               />
               <h6 class="card-subtitle mb-2">Web Development</h6>
-              <p class="card-text">
+              <p class="card-body">
                 Custom, efficient, and user-friendly solutions for businesses to
                 enhance their online presence and reach their goals seamlessly
+                <br />
               </p>
             </div>
           </div>
           <div class="col">
-            <div
-              class="card h-100 shadow-lg p-3 mb-5 bg-body rounded text-center"
-            >
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded text-center">
               <img
                 src="assets/img/icons-services/Ui.png"
-                class="rounded m-4"
+                class="rounded m-4 img-thumbnail mx-auto"
                 alt="App Development"
+                style="width: 100px; height: 100px"
               />
               <h6 class="card-subtitle mb-2">UI/UX</h6>
-              <p class="card-text">
+              <p class="card-body">
                 Focused on creating user-centered digital experiences to enhance
                 overall usability and engagement with clients' products
               </p>
@@ -252,8 +321,9 @@
             >
               <img
                 src="assets/img/icons-services/Designing.png"
-                class="rounded m-4"
+                class="rounded m-4 img-thumbnail mx-auto"
                 alt="App Development"
+                style="width: 100px; height: 100px"
               />
               <h6 class="card-subtitle mb-2">Solution Designing</h6>
               <p class="card-text">
@@ -268,8 +338,9 @@
             >
               <img
                 src="assets/img/icons-services/Cross.png"
-                class="rounded m-4"
+                class="rounded m-4 img-thumbnail mx-auto"
                 alt="App Development"
+                style="width: 100px; height: 100px"
               />
               <h6 class="card-subtitle mb-2">Cloud Computing</h6>
               <p class="card-text">
@@ -285,8 +356,9 @@
             >
               <img
                 src="assets/img/icons-services/Cloud.png"
-                class="rounded m-4 img-thumbnail"
+                class="rounded m-4 img-thumbnail mx-auto"
                 alt="App Development"
+                style="width: 100px; height: 100px"
               />
               <h6 class="card-subtitle mb-2">Cloud Computing</h6>
               <p class="card-text">
@@ -315,7 +387,7 @@
               style="object-fit: cover"
             />
           </div>
-          <div class="col-md-1 col-sm-12">
+          <div class="col-md-2 col-sm-12">
             <a class="btn fw-bold" href="index.html">Home</a>
             <a class="btn fw-bold" href="portfolio.html">Portfolio</a>
             <a class="btn fw-bold" href="blog.html">Blog</a>

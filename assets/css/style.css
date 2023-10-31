@@ -247,3 +247,20 @@ ul {
 .blog-text a:hover {
   color: #924b8f;
 }
+
+/* Navbar */
+.navbar .navbar-brand {
+  padding-left: 0;
+}
+
+.navbar .navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.navbar .btn.get-touch {
+  margin-left: 20px;
+}
