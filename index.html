@@ -25,96 +25,6 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- Bootstrap Stylesheet -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <style>
-      /* Custom CSS untuk merapikan teks dan grid */
-      body {
-        font-size: 16px;
-      }
-
-      .container {
-        max-width: 1200px;
-      }
-
-      .navbar {
-        padding: 15px;
-      }
-
-      .home h3 {
-        font-size: 24px;
-      }
-
-      .home p {
-        font-size: 18px;
-      }
-
-      .btn.get-started {
-        font-size: 18px;
-        padding: 10px 20px;
-      }
-
-      .bagian-1 h2,
-      .bagian-2 h2,
-      .bagian-3 h2 {
-        font-size: 25px;
-      }
-
-      .bagian-1 p,
-      .bagian-2 p,
-      .bagian-3 p {
-        font-size: 15px;
-      }
-
-      .btn.explore-more {
-        font-size: 18px;
-        padding: 10px 20px;
-      }
-
-      .services h1 {
-        font-size: 30px;
-        font-weight: bold;
-      }
-      .services h6 {
-        font-weight: bold;
-      }
-      .card {
-        font-size: 10px;
-        font-weight: bold;
-      }
-
-      .container-fluid {
-        /* background-color: #f8f9fa; */
-        padding: 20px;
-      }
-
-      .btn {
-        font-size: 18px;
-        margin: 5px;
-        padding: 10px 20px;
-      }
-
-      .text-email {
-        font-size: 20px;
-      }
-
-      .copyright {
-        font-size: 18px;
-      }
-
-      .logo-footer {
-        max-width: 80px;
-        height: auto;
-      }
-
-      .bg-footer {
-        background-color: rgba(146, 75, 143, 0.39);
-      }
-
-      .social-media-icons img {
-        width: 20x;
-        height: 20px;
-        margin: 5px;
-      }
-    </style>
   </head>
 
   <body>
@@ -386,37 +296,64 @@
     <!-- Akhir services -->
 
     <!-- Footer -->
-  <section class="container-fluid bg-footer text-body footer mt-5 pt-5 p-1">
-    <div class="container">
-      <div class="row row-cols-3 justify-content-between">
-        <div class="col-sm-1">
-          <img src="assets/img/icons web.png" alt="Logo" width="80" height="80" class="logo-footer"
-            style="object-fit: cover" />
+    <section class="container-fluid bg-footer text-body footer mt-5 pt-5 p-1">
+      <div class="container">
+        <div class="row row-cols-3 justify-content-between">
+          <div class="col-sm-2">
+            <img
+              src="assets/img/icons web.png"
+              alt="Logo"
+              width="80"
+              height="80"
+              class="logo-footer"
+              style="object-fit: cover"
+            />
+          </div>
+          <div class="col-md-1 col-sm-10 text-center">
+            <a class="btn fw-bold" href="index.html">Home</a>
+            <a class="btn fw-bold" href="portfolio.html">Portfolio</a>
+            <a class="btn fw-bold" href="blog.html">Blog</a>
+            <a class="btn fw-bold" href="about us.html">About Us</a>
+            <a class="btn fw-bold" href="contact.html">Contact</a>
+            <a class="btn fw-bold" href="todos.html">Todos</a>
+          </div>
+          <div class="col-sm-3 col-mx-6">
+            <h3 class="text-center text-email fs-5">Keep in Touch</h3>
+            <input
+              type="email"
+              class="form-control mt-4"
+              id="inputEmail"
+              placeholder="Insert Your Email Address"
+            />
+          </div>
         </div>
-        <div class="col-md-5 col-sm-10 text-center">
-          <a class="btn fw-bold" href="index.html">Home</a>
-          <a class="btn fw-bold" href="portfolio.html">Portfolio</a>
-          <a class="btn fw-bold" href="blog.html">Blog</a>
-          <a class="btn fw-bold" href="about us.html">About Us</a>
-          <a class="btn fw-bold" href="contact.html">Contact</a>
-          <a class="btn fw-bold" href="todos.html">Todos</a>
+        <div class="col-ms-6 text-center mt-5">
+          <img
+            src="assets/img/medsos/linkedin.png"
+            class="rounded"
+            alt="Linkedin"
+          />
+          <img
+            src="assets/img/medsos/GitHub.png"
+            class="rounded"
+            alt="Github"
+          />
+          <img
+            src="assets/img/medsos/upwork.png"
+            class="rounded"
+            alt="Upwork"
+          />
+          <img
+            src="assets/img/medsos/fiverr.png"
+            class="rounded"
+            alt="Fiverr"
+          />
         </div>
-        <div class="col-sm-3 col-mx-6">
-          <h3 class="text-center text-email fs-5">Keep in Touch</h3>
-          <input type="email" class="form-control mt-4" id="inputEmail" placeholder="Insert Your Email Address" />
+        <div class="text-center fw-bold copyright mt-2">
+          <p>Copyright © 2022 Atinity Solutions</p>
         </div>
       </div>
-      <div class="col-ms-6 text-center mt-5">
-        <img src="assets/img/medsos/linkedin.png" class="rounded" alt="Linkedin" />
-        <img src="assets/img/medsos/GitHub.png" class="rounded" alt="Github" />
-        <img src="assets/img/medsos/upwork.png" class="rounded" alt="Upwork" />
-        <img src="assets/img/medsos/fiverr.png" class="rounded" alt="Fiverr" />
-      </div>
-      <div class="text-center fw-bold copyright mt-2">
-        <p>Copyright © 2022 Atinity Solutions</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

@@ -58,6 +58,96 @@ h1.services {
   font-weight: bold;
 }
 
+/* Custom CSS untuk merapikan teks dan grid */
+body {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.home h3 {
+  font-size: 24px;
+}
+
+.home p {
+  font-size: 18px;
+}
+
+.btn.get-started {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.bagian-1 h2,
+.bagian-2 h2,
+.bagian-3 h2 {
+  font-size: 25px;
+}
+
+.bagian-1 p,
+.bagian-2 p,
+.bagian-3 p {
+  font-size: 15px;
+}
+
+.btn.explore-more {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.services h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.services h6 {
+  font-weight: bold;
+}
+
+.card {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.btn {
+  font-size: 18px;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.text-email {
+  font-size: 20px;
+}
+
+.copyright {
+  font-size: 18px;
+}
+
+.logo-footer {
+  max-width: 80px;
+  height: auto;
+}
+
+.bg-footer {
+  background-color: rgba(146, 75, 143, 0.39);
+}
+
+.social-media-icons img {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
 /* To Do */
 * {
   margin: 0;
@@ -123,7 +213,7 @@ ul li {
   list-style: none;
   font-size: 17px;
   padding: 17px 8px 12px 50px;
-  user-select: none;
+  -webkit-user-select: none;
   cursor: pointer;
   position: relative;
 }
