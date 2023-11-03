@@ -273,7 +273,7 @@ ul {
   flex-direction: column;
 }
 .blog-heading span {
-  color: #924b8f;
+  color: #fe7264;
 }
 .blog-heading h3 {
   font-size: 2.4rem;
@@ -335,7 +335,7 @@ ul {
   color: #0f0f0f;
 }
 .blog-text a:hover {
-  color: #924b8f;
+  color: #fe7264;
 }
 
 /* Navbar */
