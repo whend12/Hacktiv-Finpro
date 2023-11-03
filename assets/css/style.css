@@ -272,12 +272,9 @@ ul {
   align-items: center;
   flex-direction: column;
 }
-.blog-heading span {
-  color: #fe7264;
-}
 .blog-heading h3 {
   font-size: 2.4rem;
-  color: #6d0c70;
+  color: #fe7264;
   font-weight: 600;
 }
 .blog-container {
