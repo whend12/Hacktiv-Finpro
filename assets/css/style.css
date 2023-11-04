@@ -24,7 +24,7 @@ h1.services {
 .btn.get-touch,
 .btn.get-started,
 .btn.explore-more,
-.btn.submit {
+.btn.btn-submit {
   background-color: #924b8f;
   color: #fff;
 }
@@ -43,9 +43,15 @@ h1.services {
   border: 1px solid #6d0c70;
 }
 
+div.alert {
+  background-color: #924b8f;
+  color: white;
+  border: 1px solid #6d0c70;
+}
+
 .btn.get-started:hover,
 .btn.explore-more:hover,
-.btn.submit:hover {
+.btn.btn-submit:hover {
   background-color: #6d0c70;
   color: #fff;
   border: 2px solid #924b8f;

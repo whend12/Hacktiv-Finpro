@@ -134,10 +134,28 @@
           Fill out our online form and one of our customer support
           representatives will get back to you as soon as possible.
         </h2>
-        <div class="row justify-content-center h-100" data-aos="fade-up">
+        <div class="row justify-content-center h-100">
+          <div
+            class="alert alert-dismissible fade show d-none my-alert"
+            role="alert"
+          >
+            <strong>Thank you!</strong> Your message has been received
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="alert"
+              aria-label="Close"
+            ></button>
+          </div>
           <div class="col-md-8 col-sm-10 w-100">
-            <form action="" method="post">
-              <div class="mb-3">
+            <form name="project-contact-form">
+              <div
+                class="mb-3"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
                 <label for="name" class="form-label">Name*</label>
                 <input
                   type="text"
@@ -148,7 +166,13 @@
                   required
                 />
               </div>
-              <div class="mb-3">
+              <div
+                class="mb-3"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
                 <label for="email" class="form-label">Email*</label>
                 <input
                   type="email"
@@ -159,7 +183,13 @@
                   required
                 />
               </div>
-              <div class="mb-3">
+              <div
+                class="mb-3"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
                 <label for="message" class="form-label">Message*</label>
                 <textarea
                   name="message"
@@ -170,7 +200,27 @@
                   placeholder="Message*"
                 ></textarea>
               </div>
-              <button type="submit" class="btn submit w-100">Submit</button>
+              <button
+                type="submit"
+                class="btn btn-submit w-100"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
+                Submit
+              </button>
+              <button
+                class="btn btn-submit btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
             </form>
           </div>
         </div>
@@ -250,6 +300,7 @@
       </div>
     </section>
 
+    <script src="assets/js/contact.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/aos.js"></script>
