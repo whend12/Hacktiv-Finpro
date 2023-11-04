@@ -21,6 +21,11 @@ h1.services {
   color: #fe7264;
 }
 
+.btn.btn-send {
+  background-color: #fff;
+  height: -50px;
+}
+
 .btn.get-touch,
 .btn.get-started,
 .btn.explore-more,
@@ -164,7 +169,7 @@ body {
 .container-todo {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #924b8f, #fe7264);
+  background: linear-gradient(135deg, #924b8f, #fe7265);
   padding: 10px;
 }
 .todo {
