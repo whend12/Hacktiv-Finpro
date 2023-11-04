@@ -24,6 +24,8 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- Bootstrap Stylesheet -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -33,7 +35,11 @@
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top Regular shadow"
     >
       <div class="container">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center"
+          data-aos="fade-right"
+        >
           <img
             src="assets/img/Logo Header.png"
             alt="Logo"
@@ -52,7 +58,11 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarCollapse"
+          data-aos="fade-left"
+        >
           <div class="navbar-nav ms-auto">
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
@@ -69,11 +79,11 @@
     <!-- Blog Section -->
     <section id="blog">
       <div class="blog-heading">
-        <h3 class="mb-5">Blog</h3>
+        <h3 class="mb-5" data-aos="zoom-in">Blog</h3>
       </div>
       <div class="blog-container">
         <!-- Blog 1 -->
-        <div class="blog-box">
+        <div class="blog-box" data-aos="zoom-in-up">
           <div class="blog-img">
             <img src="assets/img/img-blog (1).png" alt="Blog" />
           </div>
@@ -93,7 +103,7 @@
           </div>
         </div>
         <!-- Blog 2 -->
-        <div class="blog-box">
+        <div class="blog-box" data-aos="zoom-in-up">
           <div class="blog-img">
             <img src="assets/img/img-blog (2).png" alt="Blog" />
           </div>
@@ -110,7 +120,7 @@
           </div>
         </div>
         <!-- Blog 3 -->
-        <div class="blog-box">
+        <div class="blog-box" data-aos="zoom-in-up">
           <div class="blog-img">
             <img src="assets/img/img-blog (3).png" alt="Blog" />
           </div>
@@ -139,7 +149,7 @@
     <section class="container-fluid bg-footer text-body footer mt-5 pt-5 p-1">
       <div class="container">
         <div class="row row-cols-3 justify-content-between">
-          <div class="col-sm-1">
+          <div class="col-sm-3" data-aos="zoom-in-right">
             <img
               src="assets/img/icons web.png"
               alt="Logo"
@@ -149,7 +159,7 @@
               style="object-fit: cover"
             />
           </div>
-          <div class="col-md-5 col-sm-10 text-center">
+          <div class="col-md-1 col-sm-10 text-center" data-aos="zoom-out">
             <a class="btn fw-bold" href="index.html">Home</a>
             <a class="btn fw-bold" href="portfolio.html">Portfolio</a>
             <a class="btn fw-bold" href="blog.html">Blog</a>
@@ -157,7 +167,7 @@
             <a class="btn fw-bold" href="contact.html">Contact</a>
             <a class="btn fw-bold" href="todos.html">Todos</a>
           </div>
-          <div class="col-sm-3 col-mx-6">
+          <div class="col-sm-3 col-mx-6" data-aos="zoom-in-left">
             <h3 class="text-center text-email fs-5">Keep in Touch</h3>
             <input
               type="email"
@@ -167,7 +177,7 @@
             />
           </div>
         </div>
-        <div class="col-ms-6 text-center mt-5">
+        <div class="col-ms-6 text-center mt-5" data-aos="fade-up">
           <img
             src="assets/img/medsos/linkedin.png"
             class="rounded"
@@ -189,13 +199,15 @@
             alt="Fiverr"
           />
         </div>
-        <div class="text-center fw-bold copyright mt-2">
+        <div class="text-center fw-bold copyright mt-2" data-aos="fade-up">
           <p>Copyright © 2022 Atinity Solutions</p>
         </div>
       </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

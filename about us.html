@@ -24,6 +24,8 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- Bootstrap Stylesheet -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -32,7 +34,11 @@
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top Regular shadow"
     >
       <div class="container">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center"
+          data-aos="fade-right"
+        >
           <img
             src="assets/img/Logo Header.png"
             alt="Logo"
@@ -51,7 +57,11 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarCollapse"
+          data-aos="fade-left"
+        >
           <div class="navbar-nav ms-auto">
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
@@ -70,21 +80,26 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center">
-            <h2 class="mb-4 text-capitalize font-weight-bold text-one">
+            <h2
+              class="mb-4 text-capitalize font-weight-bold text-one"
+              data-aos="zoom-in"
+            >
               Our Vision & Mission
             </h2>
-            <h2 class="mb-4 text-capitalize font-weight-bold text-two">
-              To Revolutionize the Technology Landscape
-            </h2>
-            <p class="lead text-black">
-              Atinity Solutions is dedicated to delivering exceptional app and
-              web services that empower businesses to achieve their goals and
-              remain ahead of the competition. We strive to provide innovative,
-              reliable, and user-friendly solutions that meet the evolving needs
-              of our clients.
-            </p>
+            <div data-aos="fade-right">
+              <h2 class="mb-4 text-capitalize font-weight-bold text-two">
+                To Revolutionize the Technology Landscape
+              </h2>
+              <p class="lead text-black">
+                Atinity Solutions is dedicated to delivering exceptional app and
+                web services that empower businesses to achieve their goals and
+                remain ahead of the competition. We strive to provide
+                innovative, reliable, and user-friendly solutions that meet the
+                evolving needs of our clients.
+              </p>
+            </div>
           </div>
-          <div class="col-md-7 text-center">
+          <div class="col-md-7 text-center" data-aos="fade-left">
             <h2 class="mb-4 text-capitalize font-weight-bold text-two">
               Innovate, Empower, Transform
             </h2>
@@ -104,6 +119,7 @@
           src="assets/img/gambar-4.png"
           class="img-fluid rounded-3"
           alt="gambar vision and mission"
+          data-aos="flip-left"
         />
       </div>
     </section>
@@ -114,49 +130,56 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center">
-            <h2 class="text-uppercase font-weight-bold text-one">Our Values</h2>
-            <h4 class="font-weight-bold text-two">Innovation</h4>
-            <p class="lead text-black">
-              We continuously strive to find new and better ways to serve our
-              clients.
-            </p>
+            <h2
+              class="text-uppercase font-weight-bold text-one"
+              data-aos="zoom-in"
+            >
+              Our Values
+            </h2>
+            <div data-aos="fade-right">
+              <h4 class="font-weight-bold text-two">Innovation</h4>
+              <p class="lead text-black">
+                We continuously strive to find new and better ways to serve our
+                clients.
+              </p>
+            </div>
           </div>
-          <div class="col-md-8 text-center">
+          <div class="col-md-8 text-center" data-aos="fade-left">
             <h4 class="font-weight-bold text-two">Excellence</h4>
             <p class="lead text-black">
               We are committed to delivering high-quality solutions that meet or
               exceed our client's expectations.
             </p>
           </div>
-          <div class="col-md-8 text-center">
+          <div class="col-md-8 text-center" data-aos="fade-right">
             <h4 class="font-weight-bold text-two">Partnership</h4>
             <p class="lead text-black">
               We believe in building strong and lasting relationships with our
               clients based on mutual trust and respect.
             </p>
           </div>
-          <div class="col-md-8 text-center">
+          <div class="col-md-8 text-center" data-aos="fade-left">
             <h4 class="font-weight-bold text-two">Responsibility</h4>
             <p class="lead text-black">
               We take our responsibility to our clients, employees, and the
               wider community seriously and always act with integrity.
             </p>
           </div>
-          <div class="col-md-8 text-center">
+          <div class="col-md-8 text-center" data-aos="fade-right">
             <h4 class="font-weight-bold text-two">Agility</h4>
             <p class="lead text-black">
               We respond quickly and effectively to the changing needs of our
               clients and the market.
             </p>
           </div>
-          <div class="col-md-8 text-center">
+          <div class="col-md-8 text-center" data-aos="fade-left">
             <h4 class="font-weight-bold text-two">Collaboration</h4>
             <p class="lead text-black">
               We work together as a team, encouraging open communication and
               sharing ideas to drive our success.
             </p>
           </div>
-          <div class="col-md-8 text-center">
+          <div class="col-md-8 text-center" data-aos="fade-right">
             <h4 class="font-weight-bold text-two">Empowerment</h4>
             <p class="lead text-black">
               We empower our employees to take ownership of their work,
@@ -170,6 +193,7 @@
           src="assets/img/gambar-5.png"
           class="img-fluid rounded-3"
           alt="gambar our values"
+          data-aos="flip-left"
         />
       </div>
     </section>
@@ -179,7 +203,7 @@
     <section class="container-fluid bg-footer text-body footer mt-5 pt-5 p-1">
       <div class="container">
         <div class="row row-cols-3 justify-content-between">
-          <div class="col-sm-1">
+          <div class="col-sm-3" data-aos="zoom-in-right">
             <img
               src="assets/img/icons web.png"
               alt="Logo"
@@ -189,7 +213,7 @@
               style="object-fit: cover"
             />
           </div>
-          <div class="col-md-1 col-sm-10 text-center">
+          <div class="col-md-1 col-sm-10 text-center" data-aos="zoom-out">
             <a class="btn fw-bold" href="index.html">Home</a>
             <a class="btn fw-bold" href="portfolio.html">Portfolio</a>
             <a class="btn fw-bold" href="blog.html">Blog</a>
@@ -197,7 +221,7 @@
             <a class="btn fw-bold" href="contact.html">Contact</a>
             <a class="btn fw-bold" href="todos.html">Todos</a>
           </div>
-          <div class="col-sm-3 col-mx-6">
+          <div class="col-sm-3 col-mx-6" data-aos="zoom-in-left">
             <h3 class="text-center text-email fs-5">Keep in Touch</h3>
             <input
               type="email"
@@ -207,7 +231,7 @@
             />
           </div>
         </div>
-        <div class="col-ms-6 text-center mt-5">
+        <div class="col-ms-6 text-center mt-5" data-aos="fade-up">
           <img
             src="assets/img/medsos/linkedin.png"
             class="rounded"
@@ -229,13 +253,15 @@
             alt="Fiverr"
           />
         </div>
-        <div class="text-center fw-bold copyright mt-2">
+        <div class="text-center fw-bold copyright mt-2" data-aos="fade-up">
           <p>Copyright © 2022 Atinity Solutions</p>
         </div>
       </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
