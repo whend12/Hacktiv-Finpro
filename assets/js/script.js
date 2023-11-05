@@ -1,39 +1,87 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const checkButton = document.getElementById("check-button");
+const clearButton = document.getElementById("clear-button");
+
+let tasks = [];
 
 function addTask() {
   if (inputBox.value === "") {
     alert("You must write something!");
   } else {
-    let li = document.createElement("li");
-    li.innerHTML = inputBox.value;
-    listContainer.appendChild(li);
-    let span = document.createElement("span");
-    span.innerHTML = "\u00d7";
-    li.appendChild(span);
+    const task = {
+      text: inputBox.value ? inputBox.value : "",
+    };
+    tasks.push(task);
+
+    createTaskElement(task);
+
+    inputBox.value = "";
+    saveData();
   }
-  inputBox.value = "";
+}
+
+function createTaskElement(task) {
+  const li = document.createElement("li");
+  const span = document.createElement("span");
+  li.innerHTML = task.text;
+  span.innerHTML = "\u00d7";
+
+  if (task.checked) {
+    li.classList.add("checked");
+  }
+
+  li.appendChild(span);
+  listContainer.appendChild(li);
+
+  span.addEventListener("click", function () {
+    removeTask(task, li);
+  });
+
+  li.addEventListener("click", function () {
+    toggleTask(task, li);
+  });
+}
+
+function removeTask(task, element) {
+  const taskIndex = tasks.indexOf(task);
+  if (taskIndex > -1) {
+    tasks.splice(taskIndex, 1);
+    element.remove();
+    saveData();
+  }
+}
+
+function toggleTask(task, element) {
+  task.checked = !task.checked;
+  task.checked
+    ? element.classList.add("checked")
+    : element.classList.remove("checked");
+
   saveData();
 }
 
-listContainer.addEventListener(
-  "click",
-  function (e) {
-    if (e.target.tagName === "LI") {
-      e.target.classList.toggle("checked");
-      saveData();
-    } else if (e.target.tagName === "SPAN") {
-      e.target.parentElement.remove();
-      saveData();
-    }
-  },
-  false
-);
+function clearCompletedTasks() {
+  tasks = tasks.filter((task) => !task.checked);
+  saveData();
+  listContainer.innerHTML = "";
+  tasks.forEach((task) => {
+    createTaskElement(task);
+  });
+}
 
 function saveData() {
-  localStorage.setItem("data", listContainer.innerHTML);
+  localStorage.setItem("tasks", JSON.stringify(tasks));
 }
-function showTask() {
-  listContainer.innerHTML = localStorage.getItem("data");
+
+function loadTasks() {
+  const storedTasks = localStorage.getItem("tasks");
+  if (storedTasks) {
+    tasks = JSON.parse(storedTasks);
+    tasks.forEach((task) => {
+      createTaskElement(task);
+    });
+  }
 }
-showTask();
+
+loadTasks();

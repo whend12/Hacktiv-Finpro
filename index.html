@@ -96,7 +96,97 @@
                 efficiency, and enhance overall performance.
               </p>
             </div>
-            <button type="button" class="btn get-started">Get Started</button>
+            <button
+              type="button"
+              class="btn get-started"
+              data-toggle="modal"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal"
+            >
+              Get Started
+            </button>
+            <!-- Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header text-light">
+                    <h4 class="modal-title">Our Services</h4>
+                    <button
+                      type="button"
+                      class="btn-close text-light"
+                      data-bs-dismiss="modal"
+                    ></button>
+                  </div>
+
+                  <!-- Modal body (List of Products in a Table) -->
+                  <div class="modal-body">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Service</th>
+                          <th>Description</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>App Development</td>
+                          <td>
+                            Comprehensive app development services to streamline
+                            information access and improve productivity through
+                            innovative and synchronized solutions.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Web Development</td>
+                          <td>
+                            Custom, efficient, and user-friendly solutions for
+                            businesses to enhance their online presence and
+                            reach their goals seamlessly.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>UI/UX</td>
+                          <td>
+                            Focused on creating user-centered digital
+                            experiences to enhance overall usability and
+                            engagement with clients' products.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Solution Designing</td>
+                          <td>
+                            Providing clients with customized and innovative
+                            solutions to meet their specific business needs and
+                            challenges.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Cloud Computing</td>
+                          <td>
+                            Delivering scalable, secure, and cost-effective
+                            cloud-based solutions to help clients optimize their
+                            IT infrastructure and operations.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <a
+                      href="https://wa.me/6281296262351?text=I%20want%20to%20order%20your%20services"
+                      target="_blank"
+                      class="btn get-started"
+                    >
+                      Order Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end Modal -->
             <div class="container mt-3">
               <img
                 src="assets/img/home.png"
@@ -378,6 +468,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/aos.js"></script>
+
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

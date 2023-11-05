@@ -362,3 +362,9 @@ ul {
 .navbar .btn.get-touch {
   margin-left: 20px;
 }
+
+/* Modal */
+.modal-header {
+  background-color: #924b8f;
+  color: #fff;
+}
