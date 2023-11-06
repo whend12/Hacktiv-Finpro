@@ -181,13 +181,6 @@ body {
   padding: 10px 30px 10px;
   border-radius: 10px;
 }
-.todo h2 {
-  color: #002765;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-top: 5px;
-}
 .todo img {
   width: 30px;
   margin-left: 10px;
@@ -297,6 +290,7 @@ ul {
 }
 .blog-box {
   width: 350px;
+  height: 630px;
   background-color: #fff;
   border: 1px solid #ececec;
   margin: 20px;
