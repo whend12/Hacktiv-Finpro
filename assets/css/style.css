@@ -16,6 +16,12 @@ a.nav-link,
   color: #6d0c70;
 }
 
+.btn.btn-footer {
+  font-size: 2em;
+  display: flex;
+  top: 5px;
+}
+
 .text-one,
 h1.services {
   color: #fe7264;
@@ -38,10 +44,6 @@ h1.services {
   background-color: rgba(146, 75, 143, 0.39);
 }
 
-.logo-footer {
-  margin-bottom: 50px;
-}
-
 .btn.get-touch:hover {
   background-color: #fff;
   color: #924b8f;
@@ -59,7 +61,7 @@ div.alert {
 .btn.btn-submit:hover {
   background-color: #6d0c70;
   color: #fff;
-  border: 2px solid #924b8f;
+  border: 1px solid #924b8f;
 }
 
 .last {
@@ -276,7 +278,7 @@ ul {
   align-items: center;
   flex-direction: column;
 }
-.blog-heading h3 {
+.blog-heading h2 {
   font-size: 2.4rem;
   color: #fe7264;
   font-weight: 600;
