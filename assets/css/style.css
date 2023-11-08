@@ -23,13 +23,17 @@ a.nav-link,
 }
 
 .text-one,
-h1.services {
+h2.services {
   color: #fe7264;
 }
 
 .btn.btn-send {
   background-color: #fff;
   height: -50px;
+}
+
+img.rounded {
+  cursor: pointer;
 }
 
 .btn.get-touch,
