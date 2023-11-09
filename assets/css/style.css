@@ -261,6 +261,16 @@ ul li span:hover {
   background: #edeef0;
 }
 
+@media screen and (max-width: 450px) {
+  h2.home-1,
+  h2.home-2 {
+    font-size: 21px;
+  }
+  div.row-todo {
+    display: block;
+  }
+}
+
 /* Blog */
 a {
   text-decoration: none;
