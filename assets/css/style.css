@@ -293,9 +293,7 @@ ul {
   flex-direction: column;
 }
 .blog-heading h2 {
-  font-size: 2.4rem;
   color: #fe7264;
-  font-weight: 600;
 }
 .blog-container {
   display: flex;
