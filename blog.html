@@ -30,7 +30,6 @@
 
   <body>
     <!-- Bagian Navbar -->
-
     <nav
       class="navbar navbar-expand-lg bg-white navbar-light sticky-top Regular shadow"
     >
@@ -66,7 +65,7 @@
           <div class="navbar-nav ms-auto">
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
-            <a href="blog.html" class="nav-item nav-link">Blog</a>
+            <a href="blog.html" class="nav-item nav-link active">Blog</a>
             <a href="about us.html" class="nav-item nav-link">About Us</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
             <a href="todos.html" class="nav-item nav-link">Todos</a>
@@ -85,17 +84,24 @@
     <!-- Blog Section -->
     <section id="blog">
       <div class="blog-heading">
-        <h3 class="mb-3" data-aos="zoom-in">Blog</h3>
+        <h2
+          class="mb-4 fw-bold text-center"
+          data-aos="zoom-in"
+        >
+          Blog
+        </h2>
       </div>
       <div class="blog-container">
         <!-- Blog 1 -->
         <div class="blog-box" data-aos="zoom-in-up">
           <div class="blog-img">
-            <img src="assets/img/img-blog (1).png" alt="Blog" />
+            <img src="assets/img/img-blog (4).png" alt="Blog" />
           </div>
           <div class="blog-text">
             <span>25 Juni 2023 / Web Design</span>
-            <a href="#" class="blog-title"
+            <a
+              href="https://medium.com/theymakedesign/consistency-in-web-design-cf6d1e43111b"
+              class="blog-title"
               >Consistency in Web Design: Why It Matters & How to Achieve It
             </a>
             <p>
@@ -111,15 +117,18 @@
         <!-- Blog 2 -->
         <div class="blog-box" data-aos="zoom-in-up">
           <div class="blog-img">
-            <img src="assets/img/img-blog (2).png" alt="Blog" />
+            <img src="assets/img/img-blog(3).png" alt="Blog" />
           </div>
           <div class="blog-text">
             <span>25 Juni 2023 / Web Development</span>
-            <a href="#" class="blog-title"
+            <a
+              href="https://medium.com/codex/20-web-development-secrets-only-the-pros-want-you-to-know-29dd4d786394"
+              class="blog-title"
               >20 Web Development Secrets Only the Pros Want You to Know
             </a>
             <p>The foundation and beyond in web development.</p>
             <a
+              class="mt-3"
               href="https://medium.com/codex/20-web-development-secrets-only-the-pros-want-you-to-know-29dd4d786394"
               >Read More</a
             >
@@ -128,11 +137,13 @@
         <!-- Blog 3 -->
         <div class="blog-box" data-aos="zoom-in-up">
           <div class="blog-img">
-            <img src="assets/img/img-blog (3).png" alt="Blog" />
+            <img src="assets/img/img-blog (2).png" alt="Blog" />
           </div>
           <div class="blog-text">
             <span>25 Juni 2023 / App Development</span>
-            <a href="#" class="blog-title"
+            <a
+              href="https://medium.com/mobile-app-circular/top-mobile-app-development-tools-to-use-in-2023-787430d1854e"
+              class="blog-title"
               >Top Mobile App Development Tools to Use in 2023
             </a>
             <p>
@@ -154,7 +165,9 @@
           </div>
           <div class="blog-text">
             <span>28 Juni 2023 / UIX Designing</span>
-            <a href="#" class="blog-title"
+            <a
+              href="https://www.interaction-design.org/literature/article/ux-design-tools-definitive-guide"
+              class="blog-title"
               >The Top UX and UI Design Tools for 2023: A Comprehensive Guide
             </a>
             <p>
@@ -171,12 +184,14 @@
         </div>
         <!-- Blog 5 -->
         <div class="blog-box" data-aos="zoom-in-up">
-          <div class="blog-img">
+          <div class="blog-img mb-5">
             <img src="assets/img/img-blog (5).png" alt="Blog" />
           </div>
           <div class="blog-text">
             <span>28 Juni 2023 / Solution Designing</span>
-            <a href="#" class="blog-title"
+            <a
+              href="https://www.bitbean.com/blog/ace-successful-solution-design-process/"
+              class="blog-title"
               >How to Ace a Successful Solution Design Process
             </a>
             <p>
@@ -199,7 +214,9 @@
           </div>
           <div class="blog-text">
             <span>28 Juni 2023 / Cloud Computing</span>
-            <a href="#" class="blog-title"
+            <a
+              href="https://www.techradar.com/best/best-cloud-computing-services"
+              class="blog-title"
               >Best cloud computing services of 2023
             </a>
             <p>
@@ -220,61 +237,53 @@
     <!-- End Blog Section -->
 
     <!-- Start Footer -->
-    <section class="container-fluid bg-footer text-body footer mt-5 pt-5 p-1">
-      <div class="container">
-        <div class="row row-cols-3 justify-content-between">
-          <div class="col-sm-3" data-aos="zoom-in-right">
+    <section class="container-fluid bg-footer footer">
+      <div class="container text-center">
+        <div class="row g-3 align-items-center">
+          <div class="col-lg" data-aos="fade-up">
             <img
-              src="assets/img/icons web.png"
-              alt="Logo"
-              width="80"
-              height="80"
-              class="logo-footer"
-              style="object-fit: cover"
+              src="assets/img/medsos/linkedin.png"
+              class="rounded"
+              alt="Linkedin"
+            />
+            <img
+              src="assets/img/medsos/GitHub.png"
+              class="rounded"
+              alt="Github"
+            />
+            <img
+              src="assets/img/medsos/upwork.png"
+              class="rounded"
+              alt="Upwork"
+            />
+            <img
+              src="assets/img/medsos/fiverr.png"
+              class="rounded"
+              alt="Fiverr"
             />
           </div>
-          <div class="col-md-1 col-sm-10 text-center" data-aos="zoom-out">
-            <a class="btn fw-bold" href="index.html">Home</a>
-            <a class="btn fw-bold" href="portfolio.html">Portfolio</a>
-            <a class="btn fw-bold" href="blog.html">Blog</a>
-            <a class="btn fw-bold" href="about us.html">About Us</a>
-            <a class="btn fw-bold" href="contact.html">Contact</a>
-            <a class="btn fw-bold" href="todos.html">Todos</a>
+          <div class="col-lg" data-aos="fade-up">
+            <h3 class="text-center text-email py-2">Keep in Touch</h3>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="email"
+                placeholder="Your Email Address"
+              />
+              <button
+                type="button"
+                class="btn btn-footer position-absolute top-0 end-0 mt-2 me-2"
+              >
+                <i
+                  class="fa-solid fa-envelope-circle-check"
+                  style="color: #924b8f"
+                ></i>
+              </button>
+            </div>
           </div>
-          <div class="col-sm-3 col-mx-6" data-aos="zoom-in-left">
-            <h3 class="text-center text-email fs-5">Keep in Touch</h3>
-            <input
-              type="email"
-              class="form-control mt-4"
-              id="inputEmail"
-              placeholder="Insert Your Email Address"
-            />
+          <div class="col-lg fw-bold copyright" data-aos="fade-up">
+            <p>Copyright © 2022 Atinity Solutions</p>
           </div>
-        </div>
-        <div class="col-ms-6 text-center mt-5" data-aos="fade-up">
-          <img
-            src="assets/img/medsos/linkedin.png"
-            class="rounded"
-            alt="Linkedin"
-          />
-          <img
-            src="assets/img/medsos/GitHub.png"
-            class="rounded"
-            alt="Github"
-          />
-          <img
-            src="assets/img/medsos/upwork.png"
-            class="rounded"
-            alt="Upwork"
-          />
-          <img
-            src="assets/img/medsos/fiverr.png"
-            class="rounded"
-            alt="Fiverr"
-          />
-        </div>
-        <div class="text-center fw-bold copyright mt-2" data-aos="fade-up">
-          <p>Copyright © 2022 Atinity Solutions</p>
         </div>
       </div>
     </section>
