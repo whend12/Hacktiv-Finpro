@@ -64,7 +64,7 @@
         >
           <div class="navbar-nav ms-auto">
             <a href="index.html" class="nav-item nav-link">Home</a>
-            <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+            <a href="portfolio.html" class="nav-item nav-link active">Portfolio</a>
             <a href="blog.html" class="nav-item nav-link">Blog</a>
             <a href="about us.html" class="nav-item nav-link">About Us</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -80,19 +80,21 @@
         </div>
       </div>
     </nav>
-
     <!-- Akhir Navbar -->
 
     <!-- Portfolio Section -->
     <section class="services py-5 mx-auto">
       <div class="container">
-        <h1 class="mb-5 fw-bold text-center services" data-aos="zoom-in">
+        <h2
+          class="mb-4 fw-bold text-one text-center"
+          data-aos="zoom-in"
+        >
           Our Portfolio
-        </h1>
+        </h2>
         <div class="row row-cols-1 row-cols-sm-3 g-4">
           <div class="col" data-aos="flip-up">
             <div
-              class="card h-80 shadow-lg p-3 mb-7 bg-body rounded text-center"
+              class="card h-100 shadow-lg p-3 mb-5 bg-body rounded text-center"
             >
               <img
                 src="assets/img/icons-services/logo1.png"
@@ -100,9 +102,7 @@
                 alt="Portfolio 1"
                 style="width: 100px; height: 100px"
               />
-              <h6 class="card-subtitle mb-2">
-                Website Company PT. Maju Bersama
-              </h6>
+              <h6 class="card-subtitle">Website Company PT. Maju Bersama</h6>
               <p class="card-body">
                 Ini adalah sebuah website yang kami buat untuk PT. Maju Bersama.
               </p>
@@ -110,7 +110,7 @@
           </div>
           <div class="col" data-aos="flip-up">
             <div
-              class="card h-80 shadow-lg p-3 mb-7 bg-body rounded text-center"
+              class="card h-100 shadow-lg p-3 mb-5 bg-body rounded text-center"
             >
               <img
                 src="assets/img/icons-services/logo2.png"
@@ -118,24 +118,23 @@
                 alt="Portfolio 2"
                 style="width: 100px; height: 100px"
               />
-              <h6 class="card-subtitle mb-2">Website Company PT. Maju Terus</h6>
+              <h6 class="card-subtitle">Website Company PT. Maju Terus</h6>
               <p class="card-body">
                 Ini adalah sebuah website yang kami buat untuk PT. Maju Terus.
-                <br />
               </p>
             </div>
           </div>
           <div class="col" data-aos="flip-up">
-            <div class="card shadow-lg p-3 mb-5 bg-body rounded text-center">
+            <div
+              class="card h-100 shadow-lg p-3 mb-5 bg-body rounded text-center"
+            >
               <img
                 src="assets/img/icons-services/logo3.png"
                 class="rounded m-4 img-thumbnail mx-auto"
                 alt="Portfolio 3"
                 style="width: 100px; height: 100px"
               />
-              <h6 class="card-subtitle mb-2">
-                Website Company PT. Maju Abaikan
-              </h6>
+              <h6 class="card-subtitle">Website Company PT. Maju Abaikan</h6>
               <p class="card-body">
                 Ini adalah sebuah website yang kami buat untuk PT. Maju Abaikan.
               </p>
@@ -199,64 +198,57 @@
     </section>
 
     <!-- Footer -->
-    <section class="container-fluid bg-footer text-body footer mt-5 pt-5 p-1">
-      <div class="container">
-        <div class="row row-cols-3 justify-content-between">
-          <div class="col-sm-3" data-aos="zoom-in-right">
+    <section class="container-fluid bg-footer footer">
+      <div class="container text-center">
+        <div class="row g-3 align-items-center">
+          <div class="col-lg" data-aos="fade-up">
             <img
-              src="assets/img/icons web.png"
-              alt="Logo"
-              width="80"
-              height="80"
-              class="logo-footer"
-              style="object-fit: cover"
+              src="assets/img/medsos/linkedin.png"
+              class="rounded"
+              alt="Linkedin"
+            />
+            <img
+              src="assets/img/medsos/GitHub.png"
+              class="rounded"
+              alt="Github"
+            />
+            <img
+              src="assets/img/medsos/upwork.png"
+              class="rounded"
+              alt="Upwork"
+            />
+            <img
+              src="assets/img/medsos/fiverr.png"
+              class="rounded"
+              alt="Fiverr"
             />
           </div>
-          <div class="col-md-1 col-sm-10 text-center" data-aos="zoom-out">
-            <a class="btn fw-bold" href="index.html">Home</a>
-            <a class="btn fw-bold" href="portfolio.html">Portfolio</a>
-            <a class="btn fw-bold" href="blog.html">Blog</a>
-            <a class="btn fw-bold" href="about us.html">About Us</a>
-            <a class="btn fw-bold" href="contact.html">Contact</a>
-            <a class="btn fw-bold" href="todos.html">Todos</a>
+          <div class="col-lg" data-aos="fade-up">
+            <h3 class="text-center text-email py-2">Keep in Touch</h3>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="email"
+                placeholder="Your Email Address"
+              />
+              <button
+                type="button"
+                class="btn btn-footer position-absolute top-0 end-0 mt-2 me-2"
+              >
+                <i
+                  class="fa-solid fa-envelope-circle-check"
+                  style="color: #924b8f"
+                ></i>
+              </button>
+            </div>
           </div>
-          <div class="col-sm-3 col-mx-6" data-aos="zoom-in-left">
-            <h3 class="text-center text-email fs-5">Keep in Touch</h3>
-            <input
-              type="email"
-              class="form-control mt-4"
-              id="inputEmail"
-              placeholder="Insert Your Email Address"
-            />
+          <div class="col-lg fw-bold copyright" data-aos="fade-up">
+            <p>Copyright © 2022 Atinity Solutions</p>
           </div>
-        </div>
-        <div class="col-ms-6 text-center mt-5" data-aos="fade-up">
-          <img
-            src="assets/img/medsos/linkedin.png"
-            class="rounded"
-            alt="Linkedin"
-          />
-          <img
-            src="assets/img/medsos/GitHub.png"
-            class="rounded"
-            alt="Github"
-          />
-          <img
-            src="assets/img/medsos/upwork.png"
-            class="rounded"
-            alt="Upwork"
-          />
-          <img
-            src="assets/img/medsos/fiverr.png"
-            class="rounded"
-            alt="Fiverr"
-          />
-        </div>
-        <div class="text-center fw-bold copyright mt-2" data-aos="fade-up">
-          <p>Copyright © 2022 Atinity Solutions</p>
         </div>
       </div>
     </section>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/aos.js"></script>

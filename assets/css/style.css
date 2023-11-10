@@ -16,14 +16,24 @@ a.nav-link,
   color: #6d0c70;
 }
 
+.btn.btn-footer {
+  font-size: 2em;
+  display: flex;
+  top: 5px;
+}
+
 .text-one,
-h1.services {
+h2.services {
   color: #fe7264;
 }
 
 .btn.btn-send {
   background-color: #fff;
   height: -50px;
+}
+
+img.rounded {
+  cursor: pointer;
 }
 
 .btn.get-touch,
@@ -36,10 +46,6 @@ h1.services {
 
 .bg-footer {
   background-color: rgba(146, 75, 143, 0.39);
-}
-
-.logo-footer {
-  margin-bottom: 50px;
 }
 
 .btn.get-touch:hover {
@@ -59,7 +65,7 @@ div.alert {
 .btn.btn-submit:hover {
   background-color: #6d0c70;
   color: #fff;
-  border: 2px solid #924b8f;
+  border: 1px solid #924b8f;
 }
 
 .last {
@@ -181,13 +187,6 @@ body {
   padding: 10px 30px 10px;
   border-radius: 10px;
 }
-.todo h2 {
-  color: #002765;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-top: 5px;
-}
 .todo img {
   width: 30px;
   margin-left: 10px;
@@ -262,6 +261,16 @@ ul li span:hover {
   background: #edeef0;
 }
 
+@media screen and (max-width: 450px) {
+  h2.home-1,
+  h2.home-2 {
+    font-size: 21px;
+  }
+  div.row-todo {
+    display: block;
+  }
+}
+
 /* Blog */
 a {
   text-decoration: none;
@@ -283,10 +292,8 @@ ul {
   align-items: center;
   flex-direction: column;
 }
-.blog-heading h3 {
-  font-size: 2.4rem;
+.blog-heading h2 {
   color: #fe7264;
-  font-weight: 600;
 }
 .blog-container {
   display: flex;
@@ -297,6 +304,7 @@ ul {
 }
 .blog-box {
   width: 350px;
+  height: 630px;
   background-color: #fff;
   border: 1px solid #ececec;
   margin: 20px;
